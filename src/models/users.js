@@ -28,7 +28,7 @@ const userModel = {
             return {msg: 'Usuario o contraseña incorrectos'};
         }
         // Comprobar si la contraseña es correcta
-        const passwordMatch = bcrypt.compareSync(password, user.password);
+        const passwordMatch = await bcrypt.compare(password, user.password); // Comparamos la contraseña
         if (user && passwordMatch) {
             return user;
         } else {

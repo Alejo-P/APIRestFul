@@ -1,12 +1,45 @@
 {
   "tours": [
     {
-      "Nombre": "Ruta a Otavalo",
+      "id": "563bb049-1ea3-4b6f-a123-5d28fd997efc",
+      "Nombre": "Ruta a Cayambe",
       "Descripcion": "Tour por feriado",
       "Precio": 300,
-      "Foto": "baños.png",
-      "id": "563bb049-1ea3-4b6f-a123-5d28fd997efc"
+      "Foto": "baños.png"
+    },
+    {
+      "id": "2b385bcd-b664-42fe-b944-bea6049c6621",
+      "nombre": "Tour Cuenca",
+      "description": "tour de noche",
+      "image": "https://res.cloudinary.com/dhieq5xxk/image/upload/v1718046436/tours/cj7jolk2xurbxhcuusf4.png",
+      "public_id": "tours/cj7jolk2xurbxhcuusf4"
     }
   ],
-  "users" :[]
+  "users": [
+    {
+      "id": "8f9ee67a-8fc6-44dc-ad5f-26d0dfedbadb",
+      "username": "Usuario23",
+      "password": "$2b$10$drD9IcgJnADHLHWRs/8VQOsAJqrMsv2n4MNW9LW7IKQCe47a0Nrru"
+    },
+    {
+      "id": "89c29051-cbc9-4458-94e2-5d3a1975e4c8",
+      "username": "Usuario32",
+      "password": "$2b$10$ff9DUXp/e2DMfldk2l/YVu3q5VVMZTj6uEJtxehuvPGp02u.NU4qy"
+    },
+    {
+      "id": "130b5dc1-1b86-49ab-ad42-0d12cf742141",
+      "username": "Usuario33",
+      "password": "$2b$10$S6okBtlqcpF2dOLphLs0s.QBUY4qco4oiGPZOFste.3hhnheaekw2"
+    },
+    {
+      "id": "4476c6dd-a6be-4a9b-80a5-cf618d9460d1",
+      "username": "Usuario33",
+      "password": "$2b$10$qK5bzlrA6S5sB2fe9VfrM.l5D4O8AaDE8quwwSsFrbomp/Pdm9ttW"
+    },
+    {
+      "id": "d74e03df-388e-42b0-9b2f-aa11cbb7828d",
+      "username": "Usuario34",
+      "password": "$2b$10$xxCoNRwCM2BpsojfE0UTb.Qo0xmOf3KoXy5/flBBPy19GLdnQwyDS"
+    }
+  ]
 }

@@ -3,6 +3,8 @@ import { Router } from "express";
 // Importar el metodo del controlador
 import { getAllToursController, getTourByIDController, updateTourByIDController, deleteTourByIDController } from "../controllers/tour_controller.js";
 import { createTourController } from "../controllers/tour_controller.js";
+import { verifyToken } from '../middlewares/auth.js';
+
 
 // Crear la instancia de Router
 const router = Router()
@@ -21,7 +23,7 @@ router.post("/tours", createTourController)
 
 // Punto 1: Crear la ruta
 // Punto 2: invocar al controlador (PUT)
-router.put("/tours/:id", updateTourByIDController)
+router.put("/tours/:id",verifyToken, updateTourByIDController)
 
 // Punto 1: Crear la ruta
 // Punto 2: invocar al controlador (DELETE)
