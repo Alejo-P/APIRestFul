@@ -42,5 +42,4 @@ app.get('/', (req, res) => {
 app.use('/api/v1', routertour)
 app.use('/api/users/', routeruser)
 
-
 export default app; // Exportar app para poder usarlo en otros archivos
